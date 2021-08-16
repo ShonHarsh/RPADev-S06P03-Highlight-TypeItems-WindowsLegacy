@@ -21,12 +21,15 @@ After making a pull request or downloading the project, open the Main.xaml in Ui
 Sample Output
 
 ```
-//ToDo
+08/16/2021 16:42:55 => [Debug] Execution started for project: RPADev-S06P03-Highlight-TypeItems
+08/16/2021 16:42:56 => [Info] RPADev-S06P03-Highlight-TypeItems execution started
+08/16/2021 16:43:07 => [Info] Audit: Using Web App. Browser: Chrome URL: https://acme-test.uipath.com/login
+08/16/2021 16:43:21 => [Info] RPADev-S06P03-Highlight-TypeItems execution ended in: 00:00:25
 ```
 
 ### Notes
 
-//Notes
+The web page used for the robot is www.acme-test.com and the credentials are set in the variables section.
 
 ### RPA Developer Foundation Sections
 
