@@ -8,6 +8,18 @@ This project is my solution in **C#** to the **Highlight WFT Type Items** practi
 
 After making a pull request or downloading the project, open the Main.xaml in UiPath Studio.  The robot can be run with the play button in the ribbon and the result can be seen in output pane.
 
+#### PRACTICE REQUIREMENTS
+
+###### **Practice 3 - Highlight WFT Type Items on ACME**
+
+Create a workflow that can highlight each specific type of workflow on the ACME Test website (www.acme-test.com). 
+
+Notes: 
+
+- You will need an ACME account for this exercise. If you don’t have it, make sure you create it
+- Before starting the exercise, make sure you go to User Options and Reset Test Data.
+- Give the user the option to choose between the WI1, WI2, WI3, WI4 and WI5 types of workflows
+
 ### Details
 
 **Course:** UiPath - RPA Developer Foundation
