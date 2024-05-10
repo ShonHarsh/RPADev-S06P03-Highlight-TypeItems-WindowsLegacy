@@ -1,12 +1,11 @@
 {
-  "name": "RPADev-S06P03-Highlight-TypeItems",
+  "name": "RPADev-S06P03-Highlight-TypeItems-WindowsLegacy",
+  "projectId": "cc4516c3-3b8c-423a-9087-b5eedf768282",
   "description": "Practice 3 - Highlight WFT Type Items on ACME\r\n\r\nCreate a workflow that can highlight each specific type of workflow on the ACME Test website (www.acme-test.com). \r\n\r\nNotes: \r\n\r\nYou will need an ACME account for this exercise. If you don’t have it, make sure you create it\r\nBefore starting the exercise, make sure you go to User Options and Reset Test Data.\r\nGive the user the option to choose between the WI1, WI2, WI3, WI4 and WI5 types of workflows",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.10.4]",
-    "UiPath.Mail.Activities": "[1.10.5]",
-    "UiPath.System.Activities": "[21.4.1]",
-    "UiPath.UIAutomation.Activities": "[21.4.4]"
+    "UiPath.System.Activities": "[24.3.1]",
+    "UiPath.UIAutomation.Activities": "[24.4.1-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -15,16 +14,21 @@
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -37,7 +41,7 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true
+    "saveToCloud": false
   },
   "expressionLanguage": "CSharp",
   "entryPoints": [
